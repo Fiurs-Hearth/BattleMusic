@@ -4,6 +4,8 @@ Plays battle music on combat start and ends when combat ends.
 Music is randomized on start of combat, by default it will randomize between 6 different songs.
 Music lingers for 5 seconds after combat by default, if you start a new combat before the lingering time ends then the same music will keep on playing.
 
+https://www.youtube.com/watch?v=YXQPcDtmPDo
+
 ## Instructions:
 
 ### Install AddOn:
