@@ -26,4 +26,4 @@ Example: /script battleMusic.songs=10
 
 ### Change linger timer:
 - Type "/script battleMusic.linger=NUMBER" and replace NUMBER with the lingering you want in seconds.  
-Example: /script battleMusic.linger=15.5s
+Example: /script battleMusic.linger=15.5
