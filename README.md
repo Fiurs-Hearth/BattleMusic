@@ -9,7 +9,7 @@ Music lingers for 5 seconds after combat by default, if you start a new combat b
 ### Install AddOn:
 - [Download the addon](https://github.com/Fiurs-Hearth/BattleMusic/archive/refs/heads/main.zip)
 - Unpack the file
-- Open the unpacked file and rename the folder named WIIIUI-master to WIIIUI
+- Open the unpacked file and rename the folder named BattleMusic-master to BattleMusic
 - Put the renamed folder into the AddOns folder: World of Warcraft\Interface\AddOns
 - Start or restart WoW if already running
 
