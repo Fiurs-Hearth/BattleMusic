@@ -1,0 +1,2 @@
+Make sure the files are named "combat_1.mp3", replace the the number after the underscore if you want more than one song, make sure there are no gaps in the number order.
+Make sure the file is mp3.
