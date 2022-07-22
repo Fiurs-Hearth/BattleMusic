@@ -21,9 +21,9 @@ Music lingers for 5 seconds after combat by default, if you start a new combat b
 - Change number of songs to randomize from by following below instructions.
 
 ### Change number of songs to randomize from:
-- Type "/script battleMusic.songs=NUMBER" and replace NUMBER with the number of songs you want it to randomize.
+- Type "/script battleMusic.songs=NUMBER" and replace NUMBER with the number of songs you want it to randomize.  
 Example: /script battleMusic.songs=10
 
 ### Change linger timer:
-- Type "/script battleMusic.linger=NUMBER" and replace NUMBER with the lingering you want in seconds.
+- Type "/script battleMusic.linger=NUMBER" and replace NUMBER with the lingering you want in seconds.  
 Example: /script battleMusic.linger=15.5s
