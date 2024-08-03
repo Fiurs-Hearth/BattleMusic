@@ -9,6 +9,10 @@ https://www.youtube.com/watch?v=YXQPcDtmPDo
 
 ## Instructions:
 
+### Config Menu (Open by typing "/bmusic")
+![image](https://github.com/user-attachments/assets/9db3ceef-dd3a-45fe-94fa-31e51757eb01)
+Open by typing "/bmusic"  
+  
 ### Install AddOn:
 - [Download the addon](https://github.com/Fiurs-Hearth/BattleMusic/archive/refs/heads/main.zip)
 - Unpack the file
