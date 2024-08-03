@@ -10,7 +10,7 @@ https://www.youtube.com/watch?v=YXQPcDtmPDo
 ## Instructions:
 
 ### Config Menu (Open by typing "/bmusic")
-![image](https://github.com/user-attachments/assets/9db3ceef-dd3a-45fe-94fa-31e51757eb01)
+![image](https://github.com/user-attachments/assets/9db3ceef-dd3a-45fe-94fa-31e51757eb01)  
 Open by typing "/bmusic"  
   
 ### Install AddOn:
