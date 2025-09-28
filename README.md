@@ -34,10 +34,11 @@ There is also an option to set a linger duration to keep playing songs after com
 - Make sure the file format is mp3
 - Log in to the game and type /bmusic to open the BattleMusic config and add the song there, don't forget to hit save when you are done.
 
-### Config Menu (Open by typing "/bmusic")
-![image](https://github.com/user-attachments/assets/9db3ceef-dd3a-45fe-94fa-31e51757eb01)  
+## Config Menu (Open by typing "/bmusic")
+<img width="1572" height="502" alt="image" src="https://github.com/user-attachments/assets/22365838-3a02-4972-893e-a87f8c5f5eb5" />  
 Open by typing "/bmusic"  
+
   
-Video of the addon in action  
+## Video of the addon in action  
 https://www.youtube.com/watch?v=YXQPcDtmPDo
 
