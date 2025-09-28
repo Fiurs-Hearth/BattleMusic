@@ -28,17 +28,26 @@ There is also an option to set a linger duration to keep playing songs after com
 
 ## How to Add Music
 
-- Files must be mp3 files
+- Files must be mp3 or wav files
 - Go into the AddOn's folder "BattleMusic" and then into "music"
 - Put the songs here
-- Make sure the file format is mp3
-- Log in to the game and type /bmusic to open the BattleMusic config and add the song there, don't forget to hit save when you are done.
+- Make sure the file format is mp3 or wav
+- Log in to the game and type /bmusic to open the BattleMusic config and add the song there with the fileformat at the end (my_song.mp3), don't forget to hit save when you are done.
 
 ## Config Menu (Open by typing "/bmusic")
-<img width="1572" height="502" alt="image" src="https://github.com/user-attachments/assets/22365838-3a02-4972-893e-a87f8c5f5eb5" />  
+<img width="1574" height="504" alt="image" src="https://github.com/user-attachments/assets/0a02475c-daee-4456-b6c9-bf345914f251" />  
 Open by typing "/bmusic"  
 
   
 ## Video of the addon in action  
 https://www.youtube.com/watch?v=YXQPcDtmPDo
 
+## Why some MP3 or WAV files might not play
+Song not playing?  
+This could be the issue:  
+  
+World of Warcraft (Vanilla 1.12) has very strict audio support
+- MP3 must use constant bitrate (CBR). If the file is variable bitrate (VBR), WoW often refuses to play it or may crash
+- WAV must be uncompressed PCM (not compressed, ADPCM, or floating-point)
+- Files that are too large, use unusual sample rates, or are encoded with the wrong codec will simply fail silently
+- If your song doesn’t play in game, it’s usually because of the encoding format rather than the addon itself
