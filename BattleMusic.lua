@@ -105,7 +105,7 @@ helpBtn:SetScript("OnEnter", function()
         .."• Zone: Restrict song to specific zone.\n\n"
         .."• Level range: Restrict song to specific mob level range.\n\n"
         .."• X: Remove song.\n\n"
-        .."Use Save to store changes, Reset to clear.", 0.9, 0.9, 0.9, 1)
+        .."Use Save to store changes, Clear will automatically save.", 0.9, 0.9, 0.9, 1)
     GameTooltip:Show()
 end)
 
@@ -210,11 +210,6 @@ local function EditboxFix(editbox)
     })
 
 end
-
---TODO: Test, Save, reload
---TODO: Add remove row
---TODO: Move labels to outside the scrollframe so they act like column names
---TODO: 
 
 -- =====================================================
 -- + Button positioning
@@ -435,7 +430,7 @@ local resetBtn = CreateFrame("Button", "BattleMusicResetButton", f, "UIPanelButt
 resetBtn:SetWidth(130)
 resetBtn:SetHeight(24)
 resetBtn:SetPoint("RIGHT", saveBtn, "LEFT", -10, 0)
-resetBtn:SetText("Reset and Save")
+resetBtn:SetText("Clear and Save")
 -- =====================================================
 -- Reset Button (double-click protection)
 -- =====================================================
