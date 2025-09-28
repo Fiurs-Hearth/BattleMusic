@@ -744,9 +744,6 @@ f:SetScript("OnEvent", function()
         end
         RefreshSongList()
 
-    -- TODO: Generate Readme for git
-    -- TODO: Upload to git
-
     -- We enter combat
     elseif event == "PLAYER_REGEN_DISABLED" then
 
@@ -784,3 +781,4 @@ f:SetScript("OnEvent", function()
         end
     end
 end)
+
