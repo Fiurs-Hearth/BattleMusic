@@ -485,6 +485,8 @@ end)
 -- OnShow Init
 -- =====================================================
 f:SetScript("OnShow", function()
+    lingerInput:SetText(battleMusic.lingerTime)
+    randomizeCheck:SetChecked(battleMusic.randomize)
     RefreshSongList()
 end)
 
@@ -698,7 +700,7 @@ local function PlayTrack()
     local song = songs[battleMusic.currentSong]
 
     if(not BattleMusicFrame.lingering)then
-        PlayMusic("Interface\\AddOns\\BattleMusic\\music\\".. song.name ..".mp3", "music")
+        PlayMusic("Interface\\AddOns\\BattleMusic\\music\\".. song.name, "music")
 
         if(song.length ~= "" and tonumber(song.length) > 0) then
             BattleMusicSongTimeFrame.time = 0
