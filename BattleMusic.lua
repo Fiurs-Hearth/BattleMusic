@@ -98,7 +98,7 @@ helpBtn:SetScript("OnEnter", function()
         .."• Linger time: How long in seconds the music will play when leaving combat.\n\n"
         .."• Randomize next track: Randomize tracks or when disabled, plays songs in order.\n\n\n"
         .."• Disabled: Will ignore the song when checked.\n\n"
-        .."• Song: Path to the song (from the Songs folder)\n\n"
+        .."• Song: Path to the song (from the music folder), don't forget to add the file format at the end (.mp3 or .wav).\n\n"
         .."• Length: Song duration in seconds, is used to change song after set seconds, leave at 0 to loop song.\n\n"
         .."• Elite: If song should only be played while fighting elites.\n\n"
         .."• Boss: If song should only be played while fighting skull level.\n\n"
@@ -470,7 +470,6 @@ whereAmIbtn:SetText("Where am I?")
 whereAmIbtn:SetScript("OnClick", function()
     WhereAmI()
 end)
-
 
 -- =====================================================
 -- Close Button
