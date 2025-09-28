@@ -1,36 +1,43 @@
-# BattleMusic
-Plays battle music on combat start and ends when combat ends.
+# BattleMusic (Vanilla WoW Addon)
 
-Music is randomized on start of combat, by default it will randomize between 6 different songs.
-Music lingers for 5 seconds after combat by default, if you start a new combat before the lingering time ends then the same music will keep on playing.
+BattleMusic is a World of Warcraft **Vanilla (1.12)** addon that plays custom music during combat.  
+It allows you to configure songs with conditions like zone, elite/boss fights, and level ranges.
+There is also an option to set a linger duration to keep playing songs after combat.
 
-Video of the addon in action  
-https://www.youtube.com/watch?v=YXQPcDtmPDo
+---
 
-## Instructions:
+## Features
 
-### Config Menu (Open by typing "/bmusic")
-![image](https://github.com/user-attachments/assets/9db3ceef-dd3a-45fe-94fa-31e51757eb01)  
-Open by typing "/bmusic"  
-  
-### Install AddOn:
+- Add unlimited custom songs via the scrollable UI
+- Configurable linger time (delay after combat before music stops)
+- Option to randomize the next track
+- Song filters:
+  - Disable per-song
+  - Zone-specific songs
+  - Elite-only or Boss-only songs
+  - Level range restrictions (e.g. `10-20`, `54-`, or `15`)
+- Clear button (double-click confirmation)
+
+## How to Install AddOn
+
 - [Download the addon](https://github.com/Fiurs-Hearth/BattleMusic/archive/refs/heads/main.zip)
 - Unpack the file
 - Open the unpacked file and rename the folder named BattleMusic-master to BattleMusic
 - Put the renamed folder into the AddOns folder: World of Warcraft\Interface\AddOns
 - Start or restart WoW if already running
 
-### Add music:
+## How to Add Music
+
+- Files must be mp3 files
 - Go into the AddOn's folder "BattleMusic" and then into "music"
-- Put the song here and name the file "combat_NUMBER.mp3" and replace NUMBER with a number.
-- Make sure there are no gaps in the number order
+- Put the songs here
 - Make sure the file format is mp3
-- Change number of songs to randomize from by following below instructions.
+- Log in to the game and type /bmusic to open the BattleMusic config and add the song there, don't forget to hit save when you are done.
 
-### Change number of songs to randomize from:
-- Type "/script battleMusic.songs=NUMBER" and replace NUMBER with the number of songs you want it to randomize.  
-Example: /script battleMusic.songs=10
+### Config Menu (Open by typing "/bmusic")
+![image](https://github.com/user-attachments/assets/9db3ceef-dd3a-45fe-94fa-31e51757eb01)  
+Open by typing "/bmusic"  
+  
+Video of the addon in action  
+https://www.youtube.com/watch?v=YXQPcDtmPDo
 
-### Change linger timer:
-- Type "/script battleMusic.linger=NUMBER" and replace NUMBER with the lingering you want in seconds.  
-Example: /script battleMusic.linger=15.5
