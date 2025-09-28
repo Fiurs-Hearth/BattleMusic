@@ -1,13 +1,43 @@
-<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
-..\..\FrameXML\UI.xsd">
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\..\FrameXML\UI.xsd">
 
-	<!-- Toggle frame. -->
-	<Frame name="BattleMusic" parent="UIParent" movable="true" hidden="true">
-        <Scripts>
-            <OnLoad>
-                BattleMusic_OnLoad()
-            </OnLoad>
-        </Scripts>
-	</Frame>
+    <!-- ============================================== -->
+    <!-- Fake UIPanelScrollFrameTemplate for Vanilla    -->
+    <!-- ============================================== -->
+    <Frame name="UIPanelScrollFrameTemplateVanilla" virtual="true">
+        <Frames>
+            <!-- The actual scroll frame -->
+            <ScrollFrame name="$parentScrollFrame" enableMouse="true">
+                <Size>
+                    <AbsDimension x="256" y="256" />
+                </Size>
+                <Anchors>
+                    <Anchor point="TOPLEFT" />
+                    <Anchor point="BOTTOMRIGHT" relativePoint="BOTTOMRIGHT" x="-28" y="0" />
+                </Anchors>
+                <ScrollChild>
+                    <Frame name="$parentScrollChild">
+                        <Size>
+                            <AbsDimension x="256" y="512" />
+                        </Size>
+                    </Frame>
+                </ScrollChild>
+            </ScrollFrame>
+
+            <!-- Vertical scrollbar -->
+            <Slider name="$parentScrollBar" orientation="VERTICAL">
+                <Size>
+                    <AbsDimension x="16" y="0" />
+                </Size>
+                <Anchors>
+                    <Anchor point="TOPLEFT" relativeTo="$parentScrollFrame" relativePoint="TOPRIGHT"
+                        x="0" y="0" />
+                    <Anchor point="BOTTOMLEFT" relativeTo="$parentScrollFrame"
+                        relativePoint="BOTTOMRIGHT" x="0" y="0" />
+                </Anchors>
+                <ThumbTexture file="Interface\Buttons\UI-ScrollBar-Knob" />
+            </Slider>
+        </Frames>
+    </Frame>
 
 </Ui>

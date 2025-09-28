@@ -1,10 +1,10 @@
 ## Interface: 11200
-## Title: Battle Music
+## Title: BattleMusic
 ## Author: Fiur
 ## Version: 1.0
 ## DefaultState: Enabled
 ## LoadOnDemand: 0
-## Notes: Plays battle music on combat start and ends when combat ends.
+## Notes: Configurable music list for battles
 ## SavedVariablesPerCharacter: battleMusic
 ## Dependencies:
 BattleMusic.lua
